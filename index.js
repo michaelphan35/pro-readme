@@ -1,8 +1,8 @@
 // Required dependencies //
 
 const inquirer = require("inquirer");
-// const fs = require("fs");
-//const generateMarkdown = require('./utils/markdown.js');
+const fs = require("fs");
+const generateMarkdown = require("./utils/markdown");
 
 // Questions Array //
 
@@ -101,4 +101,13 @@ const questions = () => {
     ]);
 };
 
-questions();
+questions()
+    .then(questionsData => {
+        const readMe = generateMarkdown(questionsData);
+
+        fs.writeFile('./README.md', readMe, err => {
+            if (err) throw Error(err);
+
+            console.log('Done!')
+        });
+    });
