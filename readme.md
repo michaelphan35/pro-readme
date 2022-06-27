@@ -11,10 +11,10 @@
 -[Questions](#questions)<br/>
     
 ## Description
-Creates a professional readme
+creates a readme for a project.
 
 ## Installation
-Please install the required dependencies. Then run node in the project's main directory.
+Install the required dependcies. Run node in project's root folder.
 
 ## Usage
 undefined
@@ -23,8 +23,8 @@ undefined
 MIT,Apache
     
 ## Contribution
-no other contributers on this project.
+no other contributers for this project.
 
 ## Questions
-michaelphan35@gmail.com
+michaelphan35
 michaelphan35@gmail.com
