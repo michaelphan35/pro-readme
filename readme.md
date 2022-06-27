@@ -1,5 +1,5 @@
 
-# m
+# Professional Readme
     
     
 ## Table of Contents
@@ -11,20 +11,20 @@
 -[Questions](#questions)<br/>
     
 ## Description
-m
+Creates a professional readme
 
 ## Installation
-m
+Please install the required dependencies. Then run node in the project's main directory.
 
 ## Usage
 undefined
 
 ## License
-MIT
+MIT,Apache
     
 ## Contribution
-m
+no other contributers on this project.
 
 ## Questions
-m
-m
+michaelphan35@gmail.com
+michaelphan35@gmail.com
